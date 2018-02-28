@@ -1,0 +1,21 @@
+﻿<Window x:Class="Example_Image.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Example_Image"
+        mc:Ignorable="d"
+        Title="Computer Parts" Height="350" Width="525">
+    <Grid>
+        <Image x:Name="imgPicture"
+               Source="https://images10.newegg.com/BizIntell/item/11/133/11-133-274/CoreV211118_1.jpg" Margin="59,0,49.4,70.8"/>
+
+        <Button x:Name="bttnNxtImg"  
+                Content="Next" 
+                Margin="300,281,140.4,9.8" Click="bttnNxtImg_Click"/>
+        <Button x:Name="bttnPrvsImg"
+            Content="Previous" Margin="116,281,324.4,9.8" Click="bttnPrvsImg_Click" />
+
+
+    </Grid>
+</Window>
